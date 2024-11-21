@@ -1,0 +1,2 @@
+# ajudadonego
+asdfghjklç
