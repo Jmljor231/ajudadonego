@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando a Geografia</title>
+    <style>
+        /* Estilo Geral */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+        }
+        header {
+            background: linear-gradient(to right, #4CAF50, #66BB6A);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 5px 0 0;
+        }
+
+        /* Menu */
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        nav .menu {
+            display: none;
+            flex-direction: column;
+            align-items: flex-start;
+            background: #444;
+            position: absolute;
+            top: 50px;
+            left: 0;
+            width: 100%;
+            z-index: 1;
+        }
+        nav .menu a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: block;
+            border-bottom: 1px solid #555;
+        }
+        nav .menu a:hover {
+            background: #555;
+        }
+        nav .menu-btn {
+            font-size: 1.5em;
+            color: white;
+            cursor: pointer;
+            display: block;
+        }
+        nav .menu-btn:hover {
+            color: #66BB6A;
+        }
+        @media (min-width: 768px) {
+            nav .menu {
+                display: flex;
+                position: static;
+                background: none;
+                flex-direction: row;
+                justify-content: flex-end;
+                width: auto;
+            }
+            nav .menu a {
+                border: none;
+                padding: 10px 15px;
+            }
+            nav .menu-btn {
+                display: none;
+            }
+        }
+
+        /* Conteúdo */
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+        .image-placeholder {
+            background: #ddd;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 100%;
+            height: 200px;
+            margin: 10px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2em;
+            color: #666;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explorando a Geografia</h1>
+        <p>Aprenda sobre os aspectos naturais e humanos que moldam o nosso planeta.</p>
+    </header>
+
+    <nav>
+        <span class="menu-btn">☰ Menu</span>
+        <div class="menu">
+            <a href="#climas">Climas</a>
+            <a href="#relevos">Relevos</a>
+            <a href="#hidrografia">Hidrografia</a>
+            <a href="#populacao">População</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="climas">
+            <h2>Climas</h2>
+           
+           
+           
+           
+            <div class="placeholder">Adicione uma imagem sobre climas aqui</div><img src="clima-9.jpg" alt="asdfghjkl">
+           
+           
+           
+           
+            <p>O clima é o conjunto de condições atmosféricas de uma região ao longo do tempo. Existem diferentes tipos climáticos:</p>
+            <ul>
+                <li><strong>Tropical:</strong> Temperaturas elevadas e chuvas abundantes, como na Amazônia.</li>
+                <li><strong>Temperado:</strong> Estações bem definidas, como na Europa e na América do Norte.</li>
+                <li><strong>Polar:</strong> Frio extremo e pouca precipitação, como na Antártida.</li>
+                <li><strong>Árido:</strong> Clima seco, com pouca chuva, como nos desertos.</li>
+                <li><strong>Equatorial:</strong> Alta umidade e calor constante, típico de regiões próximas ao Equador.</li>
+            </ul>
+        </section>
+
+        <section id="relevos">
+            <h2>Relevos</h2>
+            
+            
+            
+            
+            <div class="image-placeholder"><img src="download.claudiogay.jpg" alt="asdfghjkl"></div>
+            
+            
+            
+            
+            
+            <p>O relevo é a forma da superfície terrestre, moldada por forças internas e externas:</p>
+            <ul>
+                <li><strong>Montanhas:</strong> Formadas pelo choque de placas tectônicas, como os Andes e o Himalaia.</li>
+                <li><strong>Planícies:</strong> Áreas baixas e planas, ideais para a agricultura, como as Pampas na América do Sul.</li>
+                <li><strong>Planaltos:</strong> Terrenos elevados e relativamente planos, como o Planalto Central do Brasil.</li>
+                <li><strong>Vales:</strong> Áreas baixas entre montanhas ou colinas, muitas vezes com rios, como o Vale do Rio Nilo.</li>
+            </ul>
+        </section>
+
+        <section id="hidrografia">
+            <h2>Hidrografia</h2>
+
+
+
+
+            <div class="image-placeholder"><img src="caldiogay.jpg" alt="qwertyuiop"></div>
+            
+            
+            
+            
+            <p>A hidrografia abrange os corpos d'água do planeta, essenciais para a vida e a economia:</p>
+            <ul>
+                <li><strong>Rios:</strong> Como o Amazonas, o mais extenso e volumoso do mundo.</li>
+                <li><strong>Lagos:</strong> Exemplos incluem o Lago Vitória, na África, e o Lago Titicaca, na América do Sul.</li>
+                <li><strong>Oceanos:</strong> O Atlântico, Pacífico, Índico, Ártico e Antártico, que cobrem 71% da superfície da Terra.</li>
+                <li><strong>Aquíferos:</strong> Reservas subterrâneas de água doce, como o Aquífero Guarani na América do Sul.</li>
+            </ul>
+        </section>
+
+        <section id="populacao">
+            <h2>População</h2>
+            
+            
+            
+            
+            <div class="image-placeholder"> <img src="cadiogay.jpg" alt="zxcvbnm"></div>
+
+
+
+
+            <p>A população mundial ultrapassou 8 bilhões de pessoas, distribuídas de forma desigual pelo planeta. Algumas características:</p>
+            <ul>
+                <li><strong>Densidade populacional:</strong> Altamente concentrada em regiões como Sudeste Asiático e Europa.</li>
+                <li><strong>Migrações:</strong> Fenômeno comum ao longo da história, motivado por fatores econômicos, sociais e ambientais.</li>
+                <li><strong>Crescimento demográfico:</strong> Ocorre mais rapidamente em países em desenvolvimento.</li>
+                <li><strong>Urbanização:</strong> A maioria da população vive em áreas urbanas, resultando em megacidades como Tóquio, Nova York e São Paulo.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Criado por João Victor Ferraz Dos Santos; 2024.</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const menu = document.querySelector('.menu');
+
+        menuBtn.addEventListener('click', () => {
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        });
+    </script>
+</body>
+</html>
