@@ -3,238 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explorando a Geografia</title>
-    <style>
-        /* Estilo Geral */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f9;
-        }
-        header {
-            background: linear-gradient(to right, #4CAF50, #66BB6A);
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 2.5em;
-            margin: 0;
-        }
-        header p {
-            font-size: 1.2em;
-            margin: 5px 0 0;
-        }
-
-        /* Menu */
-        nav {
-            background: #333;
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-        }
-        nav .menu {
-            display: none;
-            flex-direction: column;
-            align-items: flex-start;
-            background: #444;
-            position: absolute;
-            top: 50px;
-            left: 0;
-            width: 100%;
-            z-index: 1;
-        }
-        nav .menu a {
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            display: block;
-            border-bottom: 1px solid #555;
-        }
-        nav .menu a:hover {
-            background: #555;
-        }
-        nav .menu-btn {
-            font-size: 1.5em;
-            color: white;
-            cursor: pointer;
-            display: block;
-        }
-        nav .menu-btn:hover {
-            color: #66BB6A;
-        }
-        @media (min-width: 768px) {
-            nav .menu {
-                display: flex;
-                position: static;
-                background: none;
-                flex-direction: row;
-                justify-content: flex-end;
-                width: auto;
-            }
-            nav .menu a {
-                border: none;
-                padding: 10px 15px;
-            }
-            nav .menu-btn {
-                display: none;
-            }
-        }
-
-        /* Conteúdo */
-        main {
-            padding: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        section {
-            background: white;
-            margin-bottom: 20px;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #4CAF50;
-            border-bottom: 2px solid #4CAF50;
-            padding-bottom: 5px;
-        }
-        .image-placeholder {
-            background: #ddd;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            width: 100%;
-            height: 200px;
-            margin: 10px 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 1.2em;
-            color: #666;
-        }
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-        }
-    </style>
+    <title>Artes Marciais</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Cabeçalho com Menu -->
     <header>
-        <h1>Explorando a Geografia</h1>
-        <p>Aprenda sobre os aspectos naturais e humanos que moldam o nosso planeta.</p>
+        <nav class="navbar">
+            <div class="logo">Artes Marciais</div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#styles">Estilos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <span class="menu-btn">☰ Menu</span>
-        <div class="menu">
-            <a href="#climas">Climas</a>
-            <a href="#relevos">Relevos</a>
-            <a href="#hidrografia">Hidrografia</a>
-            <a href="#populacao">População</a>
-        </div>
-    </nav>
-
+    <!-- Seções principais -->
     <main>
-        <section id="climas">
-            <h2>Climas</h2>
-           
-           
-           
-           
-            </div><img src="clima-9.jpg" alt="asdfghjkl">
-           
-           
-           
-           
-            <p>O clima é o conjunto de condições atmosféricas de uma região ao longo do tempo. Existem diferentes tipos climáticos:</p>
-            <ul>
-                <li><strong>Tropical:</strong> Temperaturas elevadas e chuvas abundantes, como na Amazônia.</li>
-                <li><strong>Temperado:</strong> Estações bem definidas, como na Europa e na América do Norte.</li>
-                <li><strong>Polar:</strong> Frio extremo e pouca precipitação, como na Antártida.</li>
-                <li><strong>Árido:</strong> Clima seco, com pouca chuva, como nos desertos.</li>
-                <li><strong>Equatorial:</strong> Alta umidade e calor constante, típico de regiões próximas ao Equador.</li>
-            </ul>
+        <section id="home" class="hero">
+            <h1>Bem-vindo ao mundo das Artes Marciais</h1>
+            <p>Explore diferentes estilos e descubra a filosofia por trás de cada técnica.</p>
         </section>
 
-        <section id="relevos">
-            <h2>Relevos</h2>
-            
-            
-            
-            
-            <img src="download.claudiogay.jpg" alt="asdfghjkl"></div>
-            
-            
-            
-            
-            
-            <p>O relevo é a forma da superfície terrestre, moldada por forças internas e externas:</p>
-            <ul>
-                <li><strong>Montanhas:</strong> Formadas pelo choque de placas tectônicas, como os Andes e o Himalaia.</li>
-                <li><strong>Planícies:</strong> Áreas baixas e planas, ideais para a agricultura, como as Pampas na América do Sul.</li>
-                <li><strong>Planaltos:</strong> Terrenos elevados e relativamente planos, como o Planalto Central do Brasil.</li>
-                <li><strong>Vales:</strong> Áreas baixas entre montanhas ou colinas, muitas vezes com rios, como o Vale do Rio Nilo.</li>
-            </ul>
+        <section id="about" class="about">
+            <h2>Sobre as Artes Marciais</h2>
+            <p>
+                As artes marciais são práticas milenares que envolvem combate, defesa pessoal e desenvolvimento físico e mental.
+                Elas possuem raízes culturais em diferentes partes do mundo e combinam técnicas de ataque, defesa e autocontrole.
+            </p>
+            <img src="images.jpeg" alt="História das artes marciais">
         </section>
 
-        <section id="hidrografia">
-            <h2>Hidrografia</h2>
+        <section id="styles" class="styles">
+            <h2>Estilos de Artes Marciais</h2>
+            <div class="style-grid">
+                <!-- Karate -->
+                <div class="style-item">
+                    <img src="download.jpeg" alt="Karate">
+                    <h3>Karate</h3>
+                    <p>
+                        Originário do Japão, o Karate combina golpes rápidos e precisos com disciplina mental.
+                        Seu foco está em socos, chutes e defesas rápidas. É amplamente praticado no mundo todo como esporte e autodefesa.
+                    </p>
+                </div>
 
+                <!-- Jiu-Jitsu -->
+                <div class="style-item">
+                    <img src="download (1).jpeg" alt="Jiu-Jitsu">
+                    <h3>Jiu-Jitsu</h3>
+                    <p>
+                        Arte marcial brasileira, derivada do Judô japonês. Enfatiza técnicas de chão, como alavancas, chaves de braço e estrangulamentos, 
+                        permitindo que o praticante derrote adversários mais fortes.
+                    </p>
+                </div>
 
+                <!-- Taekwondo -->
+                <div class="style-item">
+                    <img src="download (2).jpeg" alt="Taekwondo">
+                    <h3>Taekwondo</h3>
+                    <p>
+                        Desenvolvido na Coreia, o Taekwondo destaca-se por seus chutes acrobáticos e velozes. 
+                        É uma modalidade olímpica que exige força, flexibilidade e agilidade.
+                    </p>
+                </div>
 
+                <!-- Kung Fu -->
+                <div class="style-item">
+                    <img src="download (3).jpeg" alt="Kung Fu">
+                    <h3>Kung Fu</h3>
+                    <p>
+                        Uma das artes marciais mais antigas, originária da China. 
+                        Seus movimentos são inspirados na natureza e na filosofia budista, com estilos que imitam animais como tigres e serpentes.
+                    </p>
+                </div>
 
-            <img src="caldiogay.jpg" alt="qwertyuiop"></div>
-            
-            
-            
-            
-            <p>A hidrografia abrange os corpos d'água do planeta, essenciais para a vida e a economia:</p>
-            <ul>
-                <li><strong>Rios:</strong> Como o Amazonas, o mais extenso e volumoso do mundo.</li>
-                <li><strong>Lagos:</strong> Exemplos incluem o Lago Vitória, na África, e o Lago Titicaca, na América do Sul.</li>
-                <li><strong>Oceanos:</strong> O Atlântico, Pacífico, Índico, Ártico e Antártico, que cobrem 71% da superfície da Terra.</li>
-                <li><strong>Aquíferos:</strong> Reservas subterrâneas de água doce, como o Aquífero Guarani na América do Sul.</li>
-            </ul>
+                <!-- Muay Thai -->
+                <div class="style-item">
+                    <img src="download (4).jpeg" alt="Muay Thai">
+                    <h3>Muay Thai</h3>
+                    <p>
+                        Conhecida como a "arte das oito armas", o Muay Thai é uma luta tailandesa que utiliza punhos, cotovelos, joelhos e canelas.
+                        É um esporte de combate e também um sistema eficaz de autodefesa.
+                    </p>
+                </div>
+
+                <!-- Judô -->
+                <div class="style-item">
+                    <img src="download (5).jpeg" alt="Judô">
+                    <h3>Judô</h3>
+                    <p>
+                        Criado no Japão, o Judô enfatiza projeções e controle do adversário no solo. 
+                        É uma arte marcial olímpica que promove disciplina, respeito e autocontrole.
+                    </p>
+                </div>
+
+                <div class="style-item">
+                    <img src="download (6).jpeg" alt="Muay Thai">
+                    <h3>Boxe</h3>
+                    <p>
+                        Boxe ou pugilismo é um esporte de combate e arte marcial, no qual os lutadores usam apenas os punhos, tanto para a defesa, quanto para o ataque
+                    </p>
+                </div>
+
+                <div class="style-item">
+                    <img src="images (1).jpeg" alt="Muay Thai">
+                    <h3>Krav maga</h3>
+                    <p>
+                        O krav maga usa movimentos curtos e objetivos, que podem ser executados por qualquer pessoa em defesa própria, tendo o próprio corpo como arma.
+                    </p>
+                </div>
+
+                <div class="style-item">
+                    <img src="download (7).jpeg" alt="Muay Thai">
+                    <h3>Capoeira</h3>
+                    <p>
+                        Utiliza principalmente de movimentos feitos junto ao chão ou de cabeça para baixo. Os golpes mais comuns são: chutes, rasteiras, cabeçadas, joelhadas, cotoveladas, acrobacias em solo ou aéreas.
+                    </p>
+                </div>
+
+                <div class="style-item">
+                    <img src="download (8).jpeg" alt="Muay Thai">
+                    <h3>M.M.A</h3>
+                    <p>
+                        O M.M.A é a sigla para Mixed Martial Arts, ou em português, artes marciais mistas. M.M.A são artes marciais que incluem golpes de luta em pé e técnicas de luta no chão.
+                    </p>
+                </div>
+            </div>
         </section>
 
-        <section id="populacao">
-            <h2>População</h2>
-            
-            
-            
-            
-            <img src="cadiogay.jpg" alt="zxcvbnm"></div>
-
-
-
-
-            <p>A população mundial ultrapassou 8 bilhões de pessoas, distribuídas de forma desigual pelo planeta. Algumas características:</p>
-            <ul>
-                <li><strong>Densidade populacional:</strong> Altamente concentrada em regiões como Sudeste Asiático e Europa.</li>
-                <li><strong>Migrações:</strong> Fenômeno comum ao longo da história, motivado por fatores econômicos, sociais e ambientais.</li>
-                <li><strong>Crescimento demográfico:</strong> Ocorre mais rapidamente em países em desenvolvimento.</li>
-                <li><strong>Urbanização:</strong> A maioria da população vive em áreas urbanas, resultando em megacidades como Tóquio, Nova York e São Paulo.</li>
-            </ul>
+        <section id="contact" class="contact">
+            <h2>Entre em Contato</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
 
+    <!-- Rodapé -->
     <footer>
-        <p>&copy; Criado por João Victor Ferraz Dos Santos; 2024.</p>
+        <p>&copy; João Victor Ferraz Dos Santos. Artes Marciais</p>
     </footer>
 
-    <script>
-        const menuBtn = document.querySelector('.menu-btn');
-        const menu = document.querySelector('.menu');
-
-        menuBtn.addEventListener('click', () => {
-            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
